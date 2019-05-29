@@ -8,4 +8,5 @@ import javax.persistence.Entity;
 public class CryptoMoney extends PanacheEntity {
     public String miniIdMonnaieCrypto;
     public String nomMonnaieCrypto;
+    public String price;
 }
