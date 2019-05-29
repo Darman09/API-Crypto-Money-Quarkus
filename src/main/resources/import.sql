@@ -1,0 +1,13 @@
+INSERT INTO `crypto_monney`.`cryptomoney`(`id`,`miniIdMonnaieCrypto`,`nomMonnaieCrypto`) VALUES (1,'ADA', 'Cardano');
+INSERT INTO `crypto_monney`.`cryptomoney`(`id`,`miniIdMonnaieCrypto`,`nomMonnaieCrypto`) VALUES (2,'BCH', 'Bitcoin Cash');
+INSERT INTO `crypto_monney`.`cryptomoney`(`id`,`miniIdMonnaieCrypto`,`nomMonnaieCrypto`) VALUES (3,'BTC', 'Bitcoin');
+INSERT INTO `crypto_monney`.`cryptomoney`(`id`,`miniIdMonnaieCrypto`,`nomMonnaieCrypto`) VALUES (4,'BTM', 'Bytom');
+INSERT INTO `crypto_monney`.`cryptomoney`(`id`,`miniIdMonnaieCrypto`,`nomMonnaieCrypto`) VALUES (5,'DASH', 'DASH');
+INSERT INTO `crypto_monney`.`cryptomoney`(`id`,`miniIdMonnaieCrypto`,`nomMonnaieCrypto`) VALUES (6,'DGB', 'DigiByte');
+INSERT INTO `crypto_monney`.`cryptomoney`(`id`,`miniIdMonnaieCrypto`,`nomMonnaieCrypto`) VALUES (7,'EOS', 'EOS');
+INSERT INTO `crypto_monney`.`cryptomoney`(`id`,`miniIdMonnaieCrypto`,`nomMonnaieCrypto`) VALUES (8,'ETH', 'Ethereum');
+INSERT INTO `crypto_monney`.`cryptomoney`(`id`,`miniIdMonnaieCrypto`,`nomMonnaieCrypto`) VALUES (9,'HSR', 'Hshare');
+INSERT INTO `crypto_monney`.`cryptomoney`(`id`,`miniIdMonnaieCrypto`,`nomMonnaieCrypto`) VALUES (10,'ICX', 'ICON');
+INSERT INTO `crypto_monney`.`cryptomoney`(`id`,`miniIdMonnaieCrypto`,`nomMonnaieCrypto`) VALUES (11,'LTC', 'LiteCoin');
+INSERT INTO `crypto_monney`.`cryptomoney`(`id`,`miniIdMonnaieCrypto`,`nomMonnaieCrypto`) VALUES (12,'MCO', 'MCO');
+INSERT INTO `crypto_monney`.`cryptomoney`(`id`,`miniIdMonnaieCrypto`,`nomMonnaieCrypto`) VALUES (13,'NEO', 'NEO');
