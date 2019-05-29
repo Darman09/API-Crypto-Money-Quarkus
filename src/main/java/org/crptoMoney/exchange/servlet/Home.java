@@ -1,5 +1,7 @@
 package org.crptoMoney.exchange.servlet;
 
+import org.crptoMoney.exchange.model.CryptoMoney;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -13,10 +15,8 @@ public class Home extends HttpServlet {
 
     @Override
     public void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        PrintWriter writer = resp.getWriter();
-        writer.println("Hello Worsssld!");
-        writer.flush();
-        writer.close();
+        req.setAttribute("listCryptos", CryptoMoney.listAll());
+        req.getRequestDispatcher("/home.jsp").forward(req, resp);
 
         super.doGet(req, resp);
     }
